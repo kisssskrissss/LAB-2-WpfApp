@@ -1,0 +1,52 @@
+﻿<Window x:Class="LAB_2_WpfApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LAB_2_WpfApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="800" Width="800">
+    <Grid>
+        <Grid ShowGridLines="False"></Grid>
+              <Grid.RowDefinitions>
+            <RowDefinition Height = "0.25*"/>
+            <RowDefinition Height ="*"/>
+        </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+            </Grid.ColumnDefinitions>
+        <Border  Margin="3 3 3 3 " BorderBrush="#FF7C3535" />
+        <TextBlock Text="1234,544"
+                FontFamily =" Arial"
+                FontSize="90"
+                TextAlignment="Right"
+               VerticalAlignment="Bottom"
+            />
+       
+        <UniformGrid Rows="6" Columns="4"  Grid.Row="1">
+            <Button Content="%" FontSize="24" Margin="1 1 1 1" Background="#FFB9B9B9"/>
+            <Button Content="СЕ" FontSize="24" Margin="1 1 1 1"  Background="#FFB9B9B9"/>
+            <Button Content="С" FontSize="24" Margin="1 1 1 1" Background="#FFB9B9B9"/>
+            <Button Content=" ←" FontSize="24" Margin="1 1 1 1" Background="#FFB9B9B9"/>
+            <Button Content="1/х" FontSize="24" Margin="1 1 1 1" Background="#FFB9B9B9"/>
+            <Button Content="Х²" FontSize="24" Margin="1 1 1 1"  Background="#FFB9B9B9"/>
+            <Button Content="√х" FontSize="24" Margin="1 1 1 1" Background="#FFB9B9B9"/>
+            <Button Content="/" FontSize="24" Margin="1 1 1 1" Background="#FFB9B9B9"/>
+            <Button Content="1" FontSize="24" Margin="1 1 1 1" />
+            <Button Content="2" FontSize="24" Margin="1 1 1 1"/>
+            <Button Content="3" FontSize="24" Margin="1 1 1 1"/>
+            <Button Content="*" FontSize="24" Margin="1 1 1 1"  Background="#FFB9B9B9" />
+            <Button Content="4" FontSize="24" Margin="1 1 1 1"/>
+            <Button Content="5" FontSize="24" Margin="1 1 1 1"/>
+            <Button Content="6" FontSize="24" Margin="1 1 1 1"/>
+            <Button Content="+" FontSize="24" Margin="1 1 1 1"  Background="#FFB9B9B9"/>
+            <Button Content="7" FontSize="24" Margin="1 1 1 1"/>
+            <Button Content="8" FontSize="24" Margin="1 1 1 1"/>
+            <Button Content="9" FontSize="24" Margin="1 1 1 1" />
+            <Button Content="-" FontSize="24" Margin="1 1 1 1" Background="#FFB9B9B9"/>
+            <Button Content="+/-" FontSize="24" Margin="1 1 1 1"/>
+            <Button Content="0" FontSize="24" Margin="1 1 1 1"/>
+            <Button Content="," FontSize="24" Margin="1 1 1 1" />
+            <Button Content="=" FontSize="24" Margin="1 1 1 1" Background="#FFB9B9B9"/>
+        </UniformGrid>  
+    </Grid>
+</Window>
